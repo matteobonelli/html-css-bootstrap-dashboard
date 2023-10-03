@@ -58,6 +58,20 @@ main{
     width: 30px;
 }
 /* media */
+@media screen and (max-width:992px){
+    #sidebar{
+        width: 70px;
+    }
+    #home, #stats, #signal, #engine{
+        display: none;
+    }
+    #main-content{
+        width: calc(100% - 70px);
+    }
+    .my-justify-center{
+        justify-content: center;
+    }
+}
 @media screen and (max-width:576px){
     .data-inizio, .roi{
         display: none;
