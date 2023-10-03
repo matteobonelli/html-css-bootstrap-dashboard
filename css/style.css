@@ -14,6 +14,12 @@ ul{
     padding: 0;
     margin: 0;
 }
+.my-col-10{
+    width: 88%;
+}
+.my-col-2{
+    width: 12%;
+}
 #small-logo{
     display: none;
 }
