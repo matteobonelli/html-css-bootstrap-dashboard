@@ -3,6 +3,7 @@ body{
     font-weight: 500;
 }
 img{
+    display: block;
     width: 100%;
 }
 a{
@@ -20,7 +21,8 @@ ul{
     height: 100%;
 }
 #header .img-container{
-    width: 90%;
+    width: 200px;
+    height: 100%;
 }
 #header .icon{
     font-size: 1.2em;
@@ -80,10 +82,11 @@ main{
 }
 /* media */
 @media screen and (max-width:992px){
+    #header .img-container{
+        width: 80px;
+    }
     #small-logo{
         display: block;
-        width: 200px;
-        height: 100px;
     }
     #big-logo{
         display: none;
