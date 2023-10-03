@@ -1,5 +1,15 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+img{
+    width: 100%;
+}
+a{
+    display: block;
+}
+a:hover{
+    color: purple;
 }
 .wrapper{
     width: 100%;
@@ -15,6 +25,12 @@ main{
     height: calc(100% - 70px);
     display: flex;
 }
+.name-width{
+    width: 60%;
+}
+.classe{
+    padding-left: 5px;
+}
 #sidebar{
     width: 150px;
     height: 100%;
@@ -29,7 +45,21 @@ main{
 .avatar-container{
     width: 30px;
 }
-.avatar-container img{
-    width: 100%;
-    background-color: white;
+/* media */
+@media screen and (max-width:576px){
+    .data-inizio, .roi{
+        display: none;
+    }
+    .name-width{
+        width: 33%;
+    }
+    #symbol{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start !important;
+        justify-content: flex-start;
+    }
+    .classe{
+        padding-left: 0;
+    }
 }
