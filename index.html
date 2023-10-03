@@ -13,8 +13,55 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="">
-
+        <header id="header" class="container-fluid">
+          <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-2">
+              <div class="img-container">
+                <img id="big-logo" src="img/logo.svg" alt="logo">
+                
+              </div>
+            </div>
+            <div class="col-9">
+              <form class="navbar-form navbar-left">
+                <input type="text" class="form-control" placeholder=" Prova a cercare: Lezioni di Laravel">
+              </form>
+            </div>
+            <div class="col-1">
+              <ul class="d-flex justify-content-between align-items-center my-justify-center pe-2">
+                <li class="icone">
+                  <a href="#">
+                    <i class="fa-solid fa-bars icon"></i>
+                  </a>
+                  
+                </li>
+                <li class="icone">
+                  <a href="#">
+                    <i class="fa-solid fa-circle-question icon"></i>
+                  </a>
+                  
+                </li>
+                <li class="icone">
+                  <a href="#">
+                    <i class="fa-solid fa-ellipsis-vertical icon"></i>
+                  </a>
+                  
+                </li>
+                <li>
+                  <div class="dropdown">
+                    <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-bell"></i>
+                    </a>
+                  
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Profilo</a></li>
+                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </header>
         <main class="">
             <div id="sidebar" class="d-flex flex-column p-3 text-white">
