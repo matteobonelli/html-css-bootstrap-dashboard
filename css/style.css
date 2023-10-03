@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+header{
+    width: 100%;
+    height: 70px;
+}
+main{
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+}
+#sidebar{
+    width: 150px;
+    height: 100%;
+    background-color: #0f233d;
+    background-image: url("../img/sidebar-bg.png");
+    /* overflow: hidden; */
+}
+#main-content{
+    width: calc(100% - 150px);
+    overflow-y: auto;
+}
+.avatar-container{
+    width: 30px;
+}
+.avatar-container img{
+    width: 100%;
+    background-color: white;
+}
