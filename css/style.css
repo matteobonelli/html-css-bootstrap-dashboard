@@ -8,8 +8,17 @@ img{
 a{
     display: block;
 }
-a:hover{
-    color: purple;
+ul{
+    list-style: none;
+    padding: 0;
+}
+#sidebar i {
+    font-size: 1.5em;
+    width: 30px;
+}
+#sidebar a{
+    color: white;
+    text-decoration: none;
 }
 .wrapper{
     width: 100%;
@@ -24,6 +33,9 @@ main{
     width: 100%;
     height: calc(100% - 70px);
     display: flex;
+}
+#sidebar li:hover, .bottom-sidebar:hover{
+    background-color: rgba(255, 255, 255, 0.171);
 }
 .name-width{
     width: 60%;
