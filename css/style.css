@@ -36,6 +36,9 @@ ul{
 .breadcrumb-divider{
     font-size: 0.8em;
 }
+#plus{
+    display: none;
+}
 .offcanvas{
     width: 800px !important;
 }
@@ -124,7 +127,26 @@ main{
     #header .icone{
         display: none;
     }
+    .offcanvas{
+        width: 100% !important;
+    }
+    #breadcrumbs{
+        display: none;
+    }
+    #plus{
+        display: block;
+    }
 }
+@media screen and (max-width:768px){
+    .my-canvas-flex{
+        justify-content: flex-start !important;
+    }
+    .my-canvas-flex h6{
+        padding: 0 !important;
+        padding-right: 20px !important;
+    }
+}
+
 @media screen and (max-width:576px){
     .data-inizio, .roi{
         display: none;
