@@ -45,6 +45,12 @@ ul{
 #main-content .form-control{
     background-color: white;
 }
+.fa-solid.fa-magnifying-glass{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.3em;
+}
 #header .icon{
     font-size: 1.2em;
     color: black;
@@ -53,8 +59,12 @@ ul{
     font-size: 1.2em;
     color: goldenrod;
 }
-input.form-control{
+#header form{
+    position: relative;
+}
+#header input.form-control{
     background-color: rgba(128, 128, 128, 0.103);
+    padding-left: 40px;
 }
 #sidebar i {
     font-size: 1.5em;
