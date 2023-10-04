@@ -30,6 +30,18 @@ ul{
     width: 200px;
     height: 100%;
 }
+.my-bg-dark{
+    background-color: rgba(0, 0, 0, 0.308);
+}
+.breadcrumb-divider{
+    font-size: 0.8em;
+}
+.offcanvas{
+    width: 800px !important;
+}
+#main-content .form-control{
+    background-color: white;
+}
 #header .icon{
     font-size: 1.2em;
     color: black;
